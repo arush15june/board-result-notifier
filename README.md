@@ -1,5 +1,5 @@
 # board-result-notifier
-# board-result-notifier.firebaseapp.com
+# http://board-result-notifier.firebaseapp.com
 
 Get notified when the result drops!
 
