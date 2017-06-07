@@ -1,4 +1,6 @@
 # board-result-notifier
+# http://www.board-result-notifier.firebaseapp.org
+
 Get notified when the result drops!
 
 The frontend is hosted on firebase. The backend is on heroku. A script runs via xshellz.com.
