@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset = "utf-8">
+  <title>CBSE Boards Result Notification</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="manifest" href="js/manifest.json">
+  <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+
+	<div class = "jumbotron">
+		<div class = "container text-responsive">
+			<span class = "heading">Board Result Notifier</span>
+			<br>
+			<span class = "subheading">by charge1506</span>
+		</div>
+	</div>
+
+	
+	 
+	<div class = "container">
+
+		<div class = "row">
+			<div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3">
+				<div class = "form-group" id ='subFormFieldset'>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		
+		<div class = "row">
+			<div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 text-responsive">
+				<center><span class = "subheading" id = "allowPermissionSpan"></span></center>
+			</div>
+		</div>
+
+		<br>
+		
+		<div class = "row">
+			<div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3">
+				<div class = "well well-lg ">
+					<center><h1 class = "bold"> Is it out ? : </h1> <h1 id="resultStatus"></h1></center>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class = "row">
+			<div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 text-responsive">
+				<center>2017 | Powered By Firebase</center>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

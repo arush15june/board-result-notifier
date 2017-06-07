@@ -1,0 +1,21 @@
+{
+  "name": "board-result-notifier",
+  "version": "1.0.0",
+  "description": "Get Notified when the day arrives",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "board",
+    "result"
+  ],
+  "author": "charge1506",
+  "license": "ISC",
+  "dependencies" : {
+    "cors" : "",
+    "express" : "",
+    "request" : "",
+    "pg": "6.x"
+  }
+}

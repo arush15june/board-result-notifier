@@ -1,0 +1,7 @@
+{
+	"short_name" : "Result Notifier",
+	"name" : "Class XII CBSE Board Result Notifier",
+	"theme_color" : "#222",
+	"display" : "standalone",
+	"gcm_sender_id" : "103953800507"
+}

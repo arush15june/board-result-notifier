@@ -1,0 +1,42 @@
+html,
+body {
+	font-family : 'Josefin Sans', sans-serif !important;
+}
+
+.bold {
+	font-weight : bold;
+}
+
+.heading {
+	color : #222;
+	font-size : 4em;
+}
+
+.subheading {
+	font-size : 1.5em;
+}
+
+.sub-button {
+	font-size:1.7em !important;
+	background : #DDD;
+	border : 2px solid #999;
+	transition : background 0.5s,color 0.5s;
+}
+.sub-button:hover:enabled {
+	background : #AAA;
+	color : #FFF;
+}
+.sub-button:focus:enabled {
+	background : #AAA;
+	color : #FFF;
+}
+
+
+
+
+
+
+
+
+
+
